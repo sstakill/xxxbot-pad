@@ -43,7 +43,7 @@ sleep 3
 
 # 读取协议版本配置
 echo "读取协议版本配置..."
-PROTOCOL_VERSION="849"  # 默认使用849协议
+PROTOCOL_VERSION="855"  # 默认使用849协议
 
 # 检查配置文件是否存在
 if [ -f "/app/main_config.toml" ]; then
